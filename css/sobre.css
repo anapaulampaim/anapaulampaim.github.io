@@ -40,10 +40,9 @@
   }
   .sobre {
     grid-template-columns: 1fr;
+    margin: 0px 0px;
   }
-  .sobre h2,
-  p {
-    padding: 0px 0px;
+  .sobre h2 {
     text-align: center;
   }
 }
