@@ -51,10 +51,18 @@ h2 {
   background: #de9d28;
   color: #ffffff;
 }
-@media (max-width: 700px) {
+@media (max-width: 840px) {
   .habilidades {
     grid-template-columns: 1fr;
-    margin: 0px;
-    padding: 40px 150px;
+    padding: 25px 40px 25px 40px;
+    justify-content: center;
+    text-align: center;
+  }
+  .habilidades-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+
+    justify-content: center;
   }
 }

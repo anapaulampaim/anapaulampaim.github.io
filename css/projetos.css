@@ -56,10 +56,16 @@ h2 {
   margin-top: 5px;
   font-size: 0.875rem;
 }
-@media (max-width: 800px) {
+@media (max-width: 840px) {
   .projetos {
     grid-template-columns: 1fr;
     margin: 0px;
-    padding: 40px 150px;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  .links {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
   }
 }

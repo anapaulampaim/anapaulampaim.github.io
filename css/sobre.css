@@ -34,7 +34,7 @@
     grid-column: 1;
   }
 }
-@media (max-width: 720px) {
+@media (max-width: 840px) {
   .sobre img {
     display: none;
   }
@@ -43,6 +43,7 @@
   }
   .sobre h2,
   p {
-    padding: 0px 20px;
+    padding: 0px 0px;
+    text-align: center;
   }
 }

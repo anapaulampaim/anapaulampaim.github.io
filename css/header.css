@@ -27,11 +27,12 @@
 .header-menu a:hover {
   color: #6ed5f3;
 }
-@media (max-width: 800px) {
+@media (max-width: 840px) {
   .header {
     flex-direction: column;
     gap: 20px;
     padding: 20px;
+    justify-items: center;
   }
   .header-menu a {
     background: #204275ec;
