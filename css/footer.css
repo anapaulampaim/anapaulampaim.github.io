@@ -1,0 +1,31 @@
+.footer {
+  background: #14325c;
+}
+.footer-container {
+  max-width: 1200px;
+  padding-top: 30px;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+  justify-items: center;
+  text-align: center;
+}
+
+.footer-contato li {
+  font-weight: bold;
+  font-size: 1rem;
+  line-height: 0.3;
+  color: #9c9cec;
+  margin-bottom: 30px;
+}
+
+.footer-contato li a {
+  color: #9c9cec;
+  text-decoration: none;
+}
+.footer-copy {
+  font-size: 1rem;
+  grid-column: 1 / -1;
+  color: #c9c8c8;
+  padding-bottom: 15px;
+}

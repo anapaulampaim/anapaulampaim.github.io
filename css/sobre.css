@@ -1,0 +1,48 @@
+.sobre {
+  max-width: 1300px;
+  padding: 70px 70px;
+  margin: 0px 70px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+.sobre h2 {
+  grid-column: 2;
+  font-size: 2rem;
+  line-height: 3rem;
+  margin-bottom: 15px;
+  color: #9c9cec;
+}
+
+.sobre p {
+  color: #c9c8c8;
+  grid-column: 2;
+  line-height: 1.5rem;
+}
+
+.sobre img {
+  grid-column: 1;
+  justify-self: center;
+}
+
+@media (max-width: 1000px) {
+  .sobre {
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+  }
+  .sobre img {
+    grid-column: 1;
+  }
+}
+@media (max-width: 720px) {
+  .sobre img {
+    display: none;
+  }
+  .sobre {
+    grid-template-columns: 1fr;
+  }
+  .sobre h2,
+  p {
+    padding: 0px 20px;
+  }
+}
